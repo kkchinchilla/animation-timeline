@@ -73,6 +73,8 @@ h2 {text-align: center;}
     height: 100%;
     width: 100%;
     background-color: #EFEFEF;
-    background-image: url(./images/1933.png) center;
+    background-image: url(./images/1933.png);
     background-size: cover;
+    display: flex;
+    justify-content: center;
 }
