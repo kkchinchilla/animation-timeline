@@ -68,65 +68,6 @@ h2 {text-align: center;}
 
 }
 
-.box-1 {
-    font-family: josefin-slab, serif;
-    font-weight: 400;
-    font-style: normal;
-    background-color: #EFEFEF;
-    width: 50%;
-    height: 600px;
-    line-height: 2;
-    font-size: 18pt;  
-    margin: 0px;
-    padding: 70px 70px;
-    box-sizing: border-box;
-    float: left;
-}
-
-.box-2 {
-    font-family: josefin-slab, serif;
-    font-weight: 400;
-    font-style: normal;
-    background-color: #FCC1B1;
-    width: 50%;
-    height: 600px;
-    margin: 0px;
-    line-height: 2;
-    font-size: 18pt;
-    padding: 70px 70px;
-    box-sizing: border-box;
-    float: left;
-}
-
-
-.paragraphs {
-        display: flex;
-        justify-content: center;
-}
-
-.box-1 {
-    position: relative;
-}
-
-.illustration-1{
-    position: absolute;
-    width:120px;
-    height:120px;
-    bottom: 140px;
-    right: 60px;
-}
-
-.box-2 {
-    position: relative;
-}
-
-.illustration-2{
-    position: absolute;
-    width: 100px;
-    height: 90px;
-    bottom: 180px;
-    left: 60px;
-}
 
 .image{
     height: 100%;
