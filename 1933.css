@@ -1,0 +1,137 @@
+
+
+html,body {
+    background-color: #ffffff;
+    margin:0;
+    overflow-x: hidden;
+    height:100%;
+}
+
+
+
+h1 {text-align: center;}
+h2 {text-align: center;}
+.header {
+    font-family: futura-pt-condensed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24pt;
+    word-spacing: 2pt;
+    letter-spacing: 0.5pt;
+    line-height: 0.4;
+    background-color: #FCDB88;
+    padding: 10px;
+    padding-bottom: 5px;
+    height: 202px;
+    width: 100%;
+}
+
+.header h2{
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 20pt;
+    line-height: 0%;
+}
+.site-nav{
+    margin-top: 30px;
+}
+
+.site-nav ul{
+    padding:0%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+}
+
+.site-nav a{
+    display: block;
+    text-decoration: none;
+    color:rgb(37, 25, 18);
+    padding: 3px 60px;
+    padding-top: 40px;
+    padding-bottom: 0;
+}
+
+.site-nav a:hover {
+    font-size: 23pt;
+    color: rgb(255, 255, 255);
+}
+
+.site-nav li{
+    list-style: none;
+    font-family: josefin-slab, serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20pt;
+    float: left;
+
+}
+
+.box-1 {
+    font-family: josefin-slab, serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #EFEFEF;
+    width: 50%;
+    height: 600px;
+    line-height: 2;
+    font-size: 18pt;  
+    margin: 0px;
+    padding: 70px 70px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.box-2 {
+    font-family: josefin-slab, serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #FCC1B1;
+    width: 50%;
+    height: 600px;
+    margin: 0px;
+    line-height: 2;
+    font-size: 18pt;
+    padding: 70px 70px;
+    box-sizing: border-box;
+    float: left;
+}
+
+
+.paragraphs {
+        display: flex;
+        justify-content: center;
+}
+
+.box-1 {
+    position: relative;
+}
+
+.illustration-1{
+    position: absolute;
+    width:120px;
+    height:120px;
+    bottom: 140px;
+    right: 60px;
+}
+
+.box-2 {
+    position: relative;
+}
+
+.illustration-2{
+    position: absolute;
+    width: 100px;
+    height: 90px;
+    bottom: 180px;
+    left: 60px;
+}
+
+.image{
+    height: 100%;
+    width: 100%;
+    background-color: #EFEFEF;
+    background-image: url(./images/1933.png);
+    background-size: cover;
+}

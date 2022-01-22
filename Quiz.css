@@ -1,0 +1,146 @@
+
+
+body {
+    background-color: #A7B7A8;
+    margin:0;
+    font-size: 120%;
+ 
+}
+
+
+h1 {text-align: center;}
+h2 {text-align: center;}
+.header {
+    font-family: futura-pt-condensed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24pt;
+    word-spacing: 2pt;
+    letter-spacing: 0.5pt;
+    line-height: 0.4;
+    background-color: #FCDB88;
+    padding: 10px;
+    padding-bottom: 5px;
+    height: 202px;
+    width: 100%;
+}
+
+.header h2{
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 20pt;
+    line-height: 0%;
+}
+
+.site-nav ul{
+    padding:0%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+}
+
+.site-nav a{
+    display: block;
+    text-decoration: none;
+    color:rgb(37, 25, 18);
+    padding: 3px 60px;
+    padding-top: 40px;
+    padding-bottom: 0;
+}
+
+.site-nav{
+    margin-top: 30px;
+}
+
+.site-nav a:hover {
+    font-size: 23pt;
+    color: rgb(255, 255, 255);
+}
+
+.site-nav li{
+    list-style: none;
+    font-family: josefin-slab, serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20pt;
+    float: left;
+
+}
+
+.question-form {
+    font-family: josefin-slab, serif;
+    font-weight: 500;
+    font-size: 18pt;
+    margin-top: 20px;
+    line-height: 0.8;
+    
+    word-spacing: 2px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.list-flex{
+    display: flex;
+}
+
+input[type="text"]{
+    width: 300px;
+    height: 28px;
+    border-radius: 10px;
+    border: 2px solid #495527;
+}
+
+.question1 {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+input[type="text"]:focus {
+    outline:none;
+    border: 2px solid #495527;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0, .4);
+}
+
+
+input[type="submit"]{
+    width: 140px;
+    height: 36px;
+    display: block;
+    font-family: futura, sans-serif;
+    font-weight: 300;
+    font-size: 15pt;
+    background-color: rgb(250, 227, 126);
+    box-sizing: border-box;  
+    border: 2.5px solid #2c411a;
+    border-radius: 20px;
+}
+
+input[type="submit"]:hover {
+    width: 140px;
+    height: 36px;
+    display: block;
+    box-sizing: border-box;
+    position:relative;
+    margin-top: -1px;
+    margin-right: 2px;
+    box-shadow:  3px 3px rgba(43, 46, 33, 0.3);
+}
+
+input[type="submit"]:focus {
+    width: 140px;
+    height: 36px;
+    display: block;
+    box-sizing: border-box;
+    background-color: rgb(255, 254, 254);
+    box-shadow: none;
+    position:relative;
+    margin-top: 1px;
+    margin-right: -2px;
+}
+
+.send {
+    display: flex;
+    justify-content: center;
+}
