@@ -73,6 +73,6 @@ h2 {text-align: center;}
     height: 100%;
     width: 100%;
     background-color: #EFEFEF;
-    background-image: url(./images/1933.png);
+    background-image: url(./images/1933.png) center;
     background-size: cover;
 }
