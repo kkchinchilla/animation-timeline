@@ -128,26 +128,13 @@ input[type="submit"]{
 }
 
 input[type="submit"]:hover {
-    width: 140px;
-    height: 36px;
-    display: block;
-    box-sizing: border-box;
-    position:relative;
     margin-top: -1px;
     margin-right: 2px;
     box-shadow:  3px 3px rgba(43, 46, 33, 0.3);
 }
 
 input[type="submit"]:focus {
-    width: 140px;
-    height: 36px;
-    display: block;
-    box-sizing: border-box;
     background-color: rgb(255, 254, 254);
-    box-shadow: none;
-    position:relative;
-    margin-top: 1px;
-    margin-right: -2px;
 }
 
 .send {
