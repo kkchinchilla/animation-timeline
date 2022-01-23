@@ -113,6 +113,11 @@ input[type="text"]:focus {
     box-shadow: inset 2px 2px 2px rgba(0,0,0, .4);
 }
 
+.send {
+    display: flex;
+    justify-content: center;
+}
+
 
 input[type="submit"]{
     width: 140px;
@@ -150,7 +155,3 @@ input[type="submit"]:focus {
     margin-right: -2px;
 }
 
-.send {
-    display: flex;
-    justify-content: center;
-}
