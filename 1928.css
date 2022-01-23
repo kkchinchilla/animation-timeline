@@ -75,7 +75,7 @@ h2 {text-align: center;}
     font-style: normal;
     background-color: #ED9B59;
     width: 30%;
-    height: 600px;
+    height: 700px;
     line-height: 2;
     font-size: 18pt;  
     margin: 0px;
@@ -90,8 +90,8 @@ h2 {text-align: center;}
 
 .illustration-1{
     position: absolute;
-    width:120px;
-    height:120px;
+    width:100px;
+    height:100px;
     bottom: 140px;
     right: 60px;
 }
@@ -102,7 +102,7 @@ h2 {text-align: center;}
     font-style: normal;
     background-color: #00202C;
     width: 40%;
-    height: 600px;
+    height: 700px;
     line-height: 2;
     font-size: 18pt;  
     margin: 0px;
@@ -117,12 +117,26 @@ h2 {text-align: center;}
     font-style: normal;
     background-color: #ED9B59;
     width: 30%;
-    height: 600px;
+    height: 700px;
     margin: 0px;
-    line-height: 2;
-    font-size: 18pt;
-    padding: 70px 70px;
+    padding: 50px 100px 0px 30px;
     box-sizing: border-box;
     float: left;
+}
+.box-2 p{
+    font-size: 18pt;
+    line-height: 1.3;
+    margin-top:18px;
+}
+.box-2 p span{
+    font-weight: bold;
+}
+.box-2 h1{
+    font-family: futura-pt, sans-serif;
+    font-weight: 600;
+    font-size: 28pt;
+    text-align: left;
+    line-height: 1.1;
+    margin: 0;
 }
 

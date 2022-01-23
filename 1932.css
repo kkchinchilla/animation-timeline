@@ -75,7 +75,7 @@ h2 {text-align: center;}
     font-style: normal;
     background-color: #00202C;
     width: 30%;
-    height: 600px;
+    height: 700px;
     line-height: 2;
     font-size: 18pt;  
     margin: 0px;
@@ -90,8 +90,8 @@ h2 {text-align: center;}
 
 .illustration-1{
     position: absolute;
-    width:120px;
-    height:120px;
+    width: 80px;
+    height:80px;
     bottom: 140px;
     right: 60px;
 }
@@ -102,7 +102,7 @@ h2 {text-align: center;}
     font-style: normal;
     background-color: #ED9B59;
     width: 40%;
-    height: 600px;
+    height: 700px;
     line-height: 2;
     font-size: 18pt;  
     margin: 0px;
@@ -117,7 +117,7 @@ h2 {text-align: center;}
     font-style: normal;
     background-color: #F4D8CE;
     width: 30%;
-    height: 600px;
+    height: 700px;
     margin: 0px;
     line-height: 2;
     font-size: 18pt;
