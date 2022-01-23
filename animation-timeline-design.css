@@ -36,14 +36,14 @@ h2 {text-align: center;}
 
 .site-nav{
     margin-top: 30px;
-    display:distribute;
-    
+    display:flex;
+    justify-content: center;
 }
 
 .site-nav ul{
     padding:0%;
     margin: 0%;
-    display: flex;
+    display: distribute;
     justify-content: center;
 }
 
