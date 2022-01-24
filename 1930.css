@@ -159,7 +159,7 @@ h2 {text-align: center;}
     }
     
     100% {
-        transform: translateX(200px);
+        transform: translateX(700px);
     }
 }
 
@@ -170,7 +170,7 @@ h2 {text-align: center;}
     }
     
     100% {
-        transform: translateX(200px);
+        transform: translateX(700px);
     }
 }
 
