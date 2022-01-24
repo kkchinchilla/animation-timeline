@@ -88,16 +88,13 @@ h2 {text-align: center;}
     float: left;
 }
 
-.box-1 {
-    position: relative;
-}
 
 .illustration-1{
-    position: absolute;
-    width: 80px;
-    height:80px;
-    bottom: 100px;
-    right: 80px;
+    display: block;
+    width: 50%;
+    margin-left: 40px;
+    margin-right: auto;
+    margin-top: 240px;
 }
 
 .box-3 {
