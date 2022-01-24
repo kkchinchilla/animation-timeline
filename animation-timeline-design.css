@@ -78,7 +78,7 @@ h2 {text-align: center;}
     font-style: normal;
     background-color: #EFEFEF;
     width: 50%;
-    height: 700px;
+    height: 800px;
     line-height: 2;
     font-size: 18pt;  
     margin: 0px;
@@ -93,7 +93,7 @@ h2 {text-align: center;}
     font-style: normal;
     background-color: #FCC1B1;
     width: 50%;
-    height: 700px;
+    height: 800px;
     margin: 0px;
     line-height: 2;
     font-size: 18pt;
@@ -114,10 +114,12 @@ h2 {text-align: center;}
 
 .illustration-1{
     position: absolute;
-    width:120px;
-    height:120px;
-    bottom: 120px;
+    width:150px;
+    height:150px;
+    margin-top: 50px;
+    margin-bottom: 40px;
     left: 60px;
+    opacity: 0.5;
 }
 
 .box-2 {
@@ -126,8 +128,10 @@ h2 {text-align: center;}
 
 .illustration-2{
     position: absolute;
-    width: 100px;
-    height: 100px;
-    bottom: 160px;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+    margin-top:120px;
     right: 60px;
+    opacity: 0.5;
 }
