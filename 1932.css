@@ -24,6 +24,7 @@ h2 {text-align: center;}
     padding-bottom: 5px;
     height: 202px;
     width: 100%;
+    position: relative;
 }
 
 .header h2{
@@ -159,3 +160,35 @@ h2 {text-align: center;}
     margin: 0;
 }
 
+@-webkit-keyframes slideSpin {
+
+    50% {
+        transform: rotate(-180deg);
+    }
+    
+    100% {
+        transform: translateX(200px);
+    }
+}
+
+@keyframes slideSpin {
+
+    50% {
+        transform: rotate(-180deg);
+    }
+    
+    100% {
+        transform: translateX(200px);
+    }
+}
+
+.animation-1 {
+    padding-top: 70px;
+    margin-left: 50px;
+    width: 100px;
+    height: auto;
+    position: absolute;
+    transform: translateX(-300px);
+    -webkit-animation: slideSpin 2s ease forwards ;
+    animation: slideSpin 2s ease forwards ;
+}
