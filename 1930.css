@@ -80,12 +80,25 @@ h2 {text-align: center;}
     background-color: #F4D8CE;
     width: 30%;
     height: 700px;
-    line-height: 2;
+    line-height: 1.5;
     font-size: 18pt;  
     margin: 0px;
-    padding: 70px 70px;
+    padding: 50px 30px 30px 100px;
     box-sizing: border-box;
     float: left;
+}
+
+.box-1 p span{
+    font-weight: bold;
+    font-style: italic;
+}
+.box-1 h1{
+    font-family: futura-pt, sans-serif;
+    font-weight: 600;
+    font-size: 28pt;
+    text-align:left;
+    line-height: 1.1;
+    margin: 0;
 }
 
 .box-2 {
