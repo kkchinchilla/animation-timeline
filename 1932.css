@@ -110,9 +110,20 @@ h2 {text-align: center;}
     line-height: 2;
     font-size: 18pt;  
     margin: 0px;
-    padding: 70px 70px;
     box-sizing: border-box;
     float: left;
+}
+
+.box-3 {
+    position: relative;
+}
+
+.photos {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    padding: 50px 30px;
+    
 }
 
 .box-2 {
