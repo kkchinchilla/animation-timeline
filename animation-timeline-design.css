@@ -115,8 +115,8 @@ h2 {text-align: center;}
 
 .illustration-1{
     position: absolute;
-    width:150px;
-    height:150px;
+    width:25%;
+    height:auto;
     margin-top: 20px;
     margin-bottom: 40px;
     left: 60px;
@@ -129,8 +129,8 @@ h2 {text-align: center;}
 
 .illustration-2{
     position: absolute;
-    width: 120px;
-    height: 120px;
+    width: 23%;
+    height: auto;
     margin-bottom: 20px;
     margin-top: 30px;
     right: 60px;
@@ -189,6 +189,7 @@ h2 {text-align: center;}
     align-items: center;
     margin: 0;
     height: 2vh;
+    z-index: 999;
 }
 
 .website__rights {

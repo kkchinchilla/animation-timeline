@@ -16,7 +16,8 @@ let n3 = document.querySelector('.n3');
 let answer_4 = document.querySelector('#a4');
 let n4 = document.querySelector('.n4');
 
-send.addEventListener('click', function () {
+send.addEventListener('click', function (e) {
+    e.preventDefault()
     if (first_answer.value == "aaa") {
         answer_1.innerHTML = "You're Correct!";
         n1.classList.remove('active');
