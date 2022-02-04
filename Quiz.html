@@ -33,62 +33,52 @@
 
             <ol>
                 <li>
-                    <p class="q">What's the name of the first animated film with synchronized sound?</p>
+                    <p class="q1">What's the name of the first animated film with synchronized sound?</p>
                     <div>
                         <input type="text" id="q1" name="q1">
                     </div>
 
-                    <br>
+                    <p class="n1" id="a1"></p>
                 </li>
 
                 <li>
-                    <p class="q">Steamboat Willie was created in what year?</p>
-                    <div>
-                        <input type="radio" type="1927" name="steamBoat-year" value="y1"><label for="1927">1927</label>
-                        <input type="radio" id="1928" name="steamBoat-year" value="y2"><label for="1928">1928</label>
-                        <input type="radio" id="1933" name="steamBoat-year" value="y3"><label for="1933">1933</label>
-                    </div>
-                    <br />
+                    <p class="q2">Steamboat Willie was created in what year?</p>
+                    <fieldset id="q2">
+                        <input type="radio" name="year" value="y1"><label for="1927">1927</label>
+                        <input type="radio" name="year" value="y2"><label for="1928">1928</label>
+                        <input type="radio" name="year" value="y3"><label for="1933">1933</label>
+                    </fieldset>
+                    <p class="n2" id="a2"></p>
                 </li>
 
 
 
                 <li>
-                    <p class="q">Which characters do you love? (select all that apply)</p>
-                    <div>
-
-                        <input type="checkbox" id="betty" name="favoriteCh" value="ch1"><label for="betty">Betty
-                            Boop</label>
-                        <input type="checkbox" id="mickey" name="favoriteCh" value="ch2"><label
-                            for="mickey">Mickey</label>
-                        <input type="checkbox" id="popeye" name="favoriteCh" value="fch3"><label
-                            for="popeye">Popeye</label>
-                    </div>
-                    <br><br>
+                    <p class="q3">Which characters do you love? (select all that apply)</p>
+                    <fieldset id="q3">
+                        <input type="checkbox" name="character" value="betty"><label for="betty">Betty Boop</label>
+                        <input type="checkbox" name="character" value="mickey"><label for="mickey">Mickey</label>
+                        <input type="checkbox" name="character" value="popeye"><label for="popeye">Popeye</label>
+                    </fieldset>
+                    <p class="n3" id="a3"></p>
                 </li>
 
                 <li>
-                    <p class="q">Who started a studio in Long Island and assigned Paramount to distribute their films?
+                    <p class="q4">Who started a studio in Long Island and assigned Paramount to distribute their films?
                     </p>
-                    <div>
-
-                        <input type="radio" type="Walt" name="fleischers" value="p1"><label for="Walt">Walt
-                            Disney</label>
-                        <input type="radio" id="Ub" name="fleischers" value="p2"><label for="Ub">Ub Iwerks</label>
-                        <input type="radio" id="Max" name="fleischers" value="p3"><label for="Max">Max Fleischer</label>
-                    </div>
-                    <br><br>
+                    <fieldset id="q4">
+                        <input type="radio" name="person" value="disney"><label for="Walt">Walt Disney</label>
+                        <input type="radio" name="person" value="iwerks"><label for="Ub">Ub Iwerks</label>
+                        <input type="radio" name="person" value="max"><label for="Max">Max Fleischer</label>
+                    </fieldset>
+                    <p class="n4" id="a4"></p>
                 </li>
 
             </ol>
 
             <div class="send">
-
-                <input type="submit" value="Submit">
-
-
+                <button id="send">Submit</button>
             </div>
-
 
         </div>
 
@@ -105,5 +95,7 @@
     </div>
 
 </body>
+
+<script src="quiz.js"></script>
 
 </html>
