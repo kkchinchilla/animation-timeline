@@ -157,33 +157,42 @@ h2 {text-align: center;}
 
 @-webkit-keyframes slideSpin {
 
+    0% {
+        transform: translateX(-1300px);
+    }
+
     50% {
+        transform: translateX(-500px);
         transform: rotate(-180deg);
     }
     
     100% {
-        transform: translateX(700px);
+        transform: translateX(0);
     }
 }
 
 @keyframes slideSpin {
 
+    0% {
+        transform: translateX(-1300px);
+    }
+
     50% {
+        transform: translateX(-500px);
         transform: rotate(-180deg);
     }
     
     100% {
-        transform: translateX(700px);
+        transform: translateX(0);
     }
 }
 
 .animation-1 {
     padding-top: 70px;
-    margin-left: 50px;
+    right: 50px;
     width: 100px;
     height: auto;
     position: absolute;
-    transform: translateX(-300px);
     -webkit-animation: slideSpin 2s ease forwards ;
     animation: slideSpin 2s ease forwards ;
 }
