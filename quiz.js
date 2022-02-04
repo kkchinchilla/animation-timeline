@@ -18,7 +18,9 @@ let n4 = document.querySelector('.n4');
 
 send.addEventListener('click', function (e) {
     e.preventDefault()
-    if (first_answer.value == "Steamboat Willie" || first_answer.value == "steamboat willie" || first_answer.value == "Steamboat willie") {
+
+    let firstAns = first_answer.value.toLowerCase()
+    if (firstAns == "steamboat willie") {
         answer_1.innerHTML = "You're Correct!";
         n1.classList.remove('active');
     }
@@ -40,7 +42,6 @@ send.addEventListener('click', function (e) {
         answer_2.innerHTML = "You're Correct!";
         n2.classList.remove('active');
     }
-
     else {
         n2.classList.add('active');
         answer_2.innerHTML = "The correct answer is '1928.'";
@@ -65,7 +66,6 @@ send.addEventListener('click', function (e) {
         answer_4.innerHTML = "You're Correct!";
         n4.classList.remove('active');
     }
-
     else {
         n4.classList.add('active');
         answer_4.innerHTML = "The correct answer is 'Max Fleischer.'"
