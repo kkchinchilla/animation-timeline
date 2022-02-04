@@ -76,7 +76,7 @@ h2 {text-align: center;}
 .box {
     overflow-x: hidden;
     width: 100%;
-    height: 900px;
+    height: 100vh;
     background-color: #9DB19E;
     box-sizing: border-box;
     margin: 0;
@@ -142,3 +142,19 @@ input[type="submit"]:focus {
     justify-content: center;
 }
 
+/* Footer */
+
+.footer__container {
+    background-color: #FCDB88;
+    padding: 5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 2vh;
+}
+
+.website__rights {
+    color: #141414;
+    font-family: futura-pt, sans-serif;
+}

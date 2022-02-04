@@ -1,97 +1,109 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <meta charset="utf-8">
-        <title>Quiz</title>
-        <link rel="stylesheet" href="Quiz.css">
-        <link rel="stylesheet" href="https://use.typekit.net/dgx7nvl.css">
-       
-    </head>
-    <body>
-        <div class="header">
-            <h1>Quiz</h1>
-            <h2>See what you've learned!</h2>
+<head>
+    <meta charset="utf-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="Quiz.css">
+    <link rel="stylesheet" href="https://use.typekit.net/dgx7nvl.css">
 
-            <nav class="site-nav">
-                <ul>
-                    <li><a href="Home.html">Home</a></li>
-                    <li><a href="1928.html">1928</a></li>
-                    <li><a href="1929.html">1929</a></li>
-                    <li><a href="1930.html">1930</a></li>
-                    <li><a href="1932.html">1932</a></li>
-                    <li><a href="1933.html">1933</a></li>
-                    <li><a href="Quiz.html">Quiz</a></li>
-                </ul>
-            </nav>    
-        </div>
+</head>
 
-        <div class="box">
+<body>
+    <div class="header">
+        <h1>Quiz</h1>
+        <h2>See what you've learned!</h2>
 
-            <div class="question-form">
+        <nav class="site-nav">
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="1928.html">1928</a></li>
+                <li><a href="1929.html">1929</a></li>
+                <li><a href="1930.html">1930</a></li>
+                <li><a href="1932.html">1932</a></li>
+                <li><a href="1933.html">1933</a></li>
+                <li><a href="Quiz.html">Quiz</a></li>
+            </ul>
+        </nav>
+    </div>
 
-                <ol>
-                    <li>
-                        <p class="q">What's the name of the first animated film with synchronized sound?</p>
-                        <div>
-                            <input type="text" id="q1" name="q1">
-                        </div>   
-                    
-                        <br>
-                    </li>
-    
-                    <li>
-                        <p class="q">Steamboat Willie was created in what year?</p>   
-                        <div>
-                            <input type="radio" type="1927" name="steamBoat-year" value="y1"><label for="1927">1927</label>
-                            <input type="radio"  id="1928" name="steamBoat-year" value="y2"><label for="1928">1928</label>
-                            <input type="radio" id="1933" name="steamBoat-year" value="y3"><label for="1933">1933</label>
-                        </div>
-                        <br/>
-                    </li>
-                    
-                   
-    
-                    <li>
-                        <p class="q">Which characters do you love? (select all that apply)</p> 
-                        <div>
+    <div class="box">
 
-                            <input type="checkbox"  id="betty"  name="favoriteCh" value="ch1"><label for="betty">Betty Boop</label>
-                            <input type="checkbox"  id="mickey"  name="favoriteCh" value="ch2"><label for="mickey">Mickey</label>
-                            <input type="checkbox"  id="popeye" name="favoriteCh" value="fch3"><label for="popeye">Popeye</label>
-                        </div>  
-                        <br><br>
-                    </li>
-    
-                    <li>
-                        <p class="q">Who started a studio in Long Island and assigned Paramount to distribute their films?</p>   
-                        <div>
+        <div class="question-form">
 
-                            <input type="radio" type="Walt" name="fleischers" value="p1"><label for="Walt">Walt Disney</label>
-                            <input type="radio"  id="Ub" name="fleischers" value="p2"><label for="Ub">Ub Iwerks</label>
-                            <input type="radio" id="Max" name="fleischers" value="p3"><label for="Max">Max Fleischer</label>
-                        </div>
-                        <br><br>
-                    </li>
-    
-                </ol>
+            <ol>
+                <li>
+                    <p class="q">What's the name of the first animated film with synchronized sound?</p>
+                    <div>
+                        <input type="text" id="q1" name="q1">
+                    </div>
 
-                <div class="send">
-                
-                  <input type="submit" value="Submit">
-                    
-            
-                </div>
-    
-    
+                    <br>
+                </li>
+
+                <li>
+                    <p class="q">Steamboat Willie was created in what year?</p>
+                    <div>
+                        <input type="radio" type="1927" name="steamBoat-year" value="y1"><label for="1927">1927</label>
+                        <input type="radio" id="1928" name="steamBoat-year" value="y2"><label for="1928">1928</label>
+                        <input type="radio" id="1933" name="steamBoat-year" value="y3"><label for="1933">1933</label>
+                    </div>
+                    <br />
+                </li>
+
+
+
+                <li>
+                    <p class="q">Which characters do you love? (select all that apply)</p>
+                    <div>
+
+                        <input type="checkbox" id="betty" name="favoriteCh" value="ch1"><label for="betty">Betty
+                            Boop</label>
+                        <input type="checkbox" id="mickey" name="favoriteCh" value="ch2"><label
+                            for="mickey">Mickey</label>
+                        <input type="checkbox" id="popeye" name="favoriteCh" value="fch3"><label
+                            for="popeye">Popeye</label>
+                    </div>
+                    <br><br>
+                </li>
+
+                <li>
+                    <p class="q">Who started a studio in Long Island and assigned Paramount to distribute their films?
+                    </p>
+                    <div>
+
+                        <input type="radio" type="Walt" name="fleischers" value="p1"><label for="Walt">Walt
+                            Disney</label>
+                        <input type="radio" id="Ub" name="fleischers" value="p2"><label for="Ub">Ub Iwerks</label>
+                        <input type="radio" id="Max" name="fleischers" value="p3"><label for="Max">Max Fleischer</label>
+                    </div>
+                    <br><br>
+                </li>
+
+            </ol>
+
+            <div class="send">
+
+                <input type="submit" value="Submit">
+
+
             </div>
 
-        
-        
-            
 
         </div>
 
-    </body>
+
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+        <div class="social__media">
+            <div class="social__media--wrap">
+                <p class="website__rights">© 2022, Karen Chang. All Rights Reserved</p>
+            </div>
+        </div>
+    </div>
+
+</body>
 
 </html>

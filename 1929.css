@@ -79,7 +79,7 @@ h2 {text-align: center;}
     font-style: normal;
     background-color: #9DB19E;
     width: 30%;
-    height: 800px;
+    height: 90vh;
     line-height: 2;
     font-size: 18pt;  
     margin: 0px;
@@ -103,7 +103,7 @@ h2 {text-align: center;}
     font-style: normal;
     background-color: #F4D8CE;
     width: 40%;
-    height: 800px;
+    height: 90vh;
     line-height: 2;
     font-size: 18pt;  
     margin: 0px;
@@ -126,7 +126,7 @@ h2 {text-align: center;}
     font-style: normal;
     background-color: #00202C;
     width: 30%;
-    height: 800px;
+    height: 90vh;
     margin: 0px;
     line-height: 2;
     font-size: 18pt;
@@ -153,6 +153,11 @@ h2 {text-align: center;}
     text-align:left;
     line-height: 1.1;
     margin: 0;
+}
+
+.paragraphs {
+        display: flex;
+        justify-content: center;
 }
 
 @-webkit-keyframes slideSpin {
@@ -195,4 +200,21 @@ h2 {text-align: center;}
     position: absolute;
     -webkit-animation: slideSpin 2s ease forwards ;
     animation: slideSpin 2s ease forwards ;
+}
+
+/* Footer */
+
+.footer__container {
+    background-color: #FCDB88;
+    padding: 5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 2vh;
+}
+
+.website__rights {
+    color: #141414;
+    font-family: futura-pt, sans-serif;
 }
