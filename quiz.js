@@ -18,7 +18,7 @@ let n4 = document.querySelector('.n4');
 
 send.addEventListener('click', function (e) {
     e.preventDefault()
-    if (first_answer.value == "aaa") {
+    if (first_answer.value == "Steamboat Willie" || first_answer.value == "steamboat willie" || first_answer.value == "Steamboat willie") {
         answer_1.innerHTML = "You're Correct!";
         n1.classList.remove('active');
     }
