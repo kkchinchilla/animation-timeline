@@ -91,6 +91,7 @@ h2 {text-align: center;}
     margin-right: 20px;
     line-height: 1.2;
     text-decoration: none;
+   
 }
 
 fieldset {
@@ -117,11 +118,10 @@ input[type="text"]:focus {
 }
 
 
-.send {
+.send button {
     width: 140px;
     height: 36px;
-    display: flex;
-    justify-content: center;
+    display: block;
     font-family: futura, sans-serif;
     font-weight: 300;
     font-size: 15pt;
@@ -131,14 +131,19 @@ input[type="text"]:focus {
     border-radius: 20px;
 }
 
-.send:hover {
+.send button:hover {
     margin-top: -1px;
     margin-right: 2px;
     box-shadow:  3px 3px rgba(43, 46, 33, 0.3);
 }
 
-.send:focus {
+.send button:focus {
     background-color: rgb(255, 254, 254);
+}
+
+.send {
+    display: flex;
+    justify-content: center;
 }
 
 /* Footer */
