@@ -74,13 +74,13 @@ h2 {text-align: center;}
 }
 
 
-.box-1 {
+.box {
     font-family: josefin-slab, serif;
     font-weight: 400;
     font-style: normal;
     background-color: #F4D8CE;
     width: 30%;
-    height: 90vh;
+    height: auto;
     line-height: 1.5;
     font-size: 18pt;  
     margin: 0px;
@@ -115,17 +115,18 @@ h2 {text-align: center;}
 }
 
 .box-3 {
-    font-family: josefin-slab, serif;
+    /* font-family: josefin-slab, serif;
     font-weight: 400;
-    font-style: normal;
+    font-style: normal; */
     background-color: #164344;
     width: 40%;
-    height: 90vh;
+    padding: 10px 10px;
+    /* height: 90vh;
     line-height: 2;
     font-size: 18pt;  
     margin: 0px;
     box-sizing: border-box;
-    float: left;
+    float: left; */
 }
 
 
@@ -138,18 +139,18 @@ h2 {text-align: center;}
 }
 
 .box-2 {
-    font-family: josefin-slab, serif;
+    /* font-family: josefin-slab, serif;
     font-weight: 400;
-    font-style: normal;
+    font-style: normal; */
     background-color: #F4D8CE;
     width: 30%;
-    height: 90vh;
+    /* height: 90vh;
     margin: 0px;
     line-height: 2;
-    font-size: 18pt;
+    font-size: 18pt; */
     padding: 70px 70px;
-    box-sizing: border-box;
-    float: left;
+    /* box-sizing: border-box;
+    float: left; */
 }
 
 .paragraphs {
