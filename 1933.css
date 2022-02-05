@@ -161,6 +161,7 @@ h2 {text-align: center;}
     padding: 50px 100px 0px 30px;
     box-sizing: border-box;
     float: left;
+    overflow: auto;
 }
 
 .paragraphs {
@@ -220,6 +221,9 @@ h2 {text-align: center;}
     align-items: center;
     margin: 0;
     height: 2vh;
+    position:relative;
+    z-index: 999;
+    bottom: 0;
 }
 
 .website__rights {

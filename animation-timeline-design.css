@@ -111,6 +111,7 @@ h2 {text-align: center;}
 
 .box-1 {
     position: relative;
+    overflow: auto;
 }
 
 .illustration-1{
@@ -125,6 +126,7 @@ h2 {text-align: center;}
 
 .box-2 {
     position: relative;
+    overflow: auto;
 }
 
 .illustration-2{
@@ -187,9 +189,11 @@ h2 {text-align: center;}
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0;
-    height: 2vh;
+    position: relative;
+  
+    height: 5vh;
     z-index: 999;
+    bottom: 0;
 }
 
 .website__rights {
