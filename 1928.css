@@ -77,13 +77,13 @@ h2 {text-align: center;}
         display: flex;
         justify-content: center;
 }
-.box-1 {
+.box {
     font-family: josefin-slab, serif;
     font-weight: 400;
     font-style: normal;
     background-color: #ED9B59;
     width: 30%;
-    height: 90vh;
+    height: auto;
     line-height: 2;
     font-size: 18pt;  
     margin: 0px;
@@ -103,17 +103,18 @@ h2 {text-align: center;}
 }
 
 .box-3 {
-    font-family: josefin-slab, serif;
+    /* font-family: josefin-slab, serif;
     font-weight: 400;
-    font-style: normal;
+    font-style: normal; */
     background-color: #00202C;
     width: 40%;
-    height: 90vh;
+    padding: 20px 10px;
+    /* height: 90vh;
     line-height: 2;
     font-size: 18pt;  
     margin: 0px;
     box-sizing: border-box;
-    float: left;
+    float: left; */
 }
 
 .photos {
@@ -125,16 +126,17 @@ h2 {text-align: center;}
 }
 
 .box-2 {
-    font-family: josefin-slab, serif;
+    /* font-family: josefin-slab, serif;
     font-weight: 400;
-    font-style: normal;
+    font-style: normal; */
     background-color: #ED9B59;
     width: 30%;
-    height: 90vh;
+    padding: 50px 100px 0px 30px;
+    /* height: 90vh;
     margin: 0px;
     padding: 50px 100px 0px 30px;
     box-sizing: border-box;
-    float: left;
+    float: left; */
 }
 .box-2 p{
     font-size: 18pt;
